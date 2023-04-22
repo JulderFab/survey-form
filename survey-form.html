@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-  <h1 id="title">Survey Form</h1>
-  <p id="description">We really appreciate your feedback and helping us improving our platform</p>
-    
+    <h1 id="title">Survey Form</h1>
+    <p id="description">We really appreciate your feedback and helping us improving our platform</p>
+    <form id="survey-form">
+        <label id="name-label">Enter your name<input id="name" type="text" required placeholder="Tom Scott"></label>
+        <label id="email-label">Enter your email<input id="email" type="email" required
+                placeholder="tomscot@gmail.com" /></label>
+        <label id="number-label">Enter your age <input id="number" type="number" required min="18" max="100"
+                placeholder="22" /></label>
+
 </body>
+
 </html>
